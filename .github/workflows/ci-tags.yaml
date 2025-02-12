@@ -23,10 +23,7 @@ jobs:
           # list of Docker images to use as base name for tags
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           # generate Docker tags based on the following events/attributes
-          tags: |
-            type=semver,pattern={{version}}-version
-            type=semver,pattern={{major}}.{{minor}}
-            type=semver,pattern={{major}}-major
+          tags: type=semver,pattern={{version}}
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Log in to the Container registry
