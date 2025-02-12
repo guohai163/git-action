@@ -3,7 +3,7 @@ run-name: build project
 on:
   push:
     branches:
-      - master
+      - main
 job:
   MKDOC:
     runs-on: ubuntu-latest
