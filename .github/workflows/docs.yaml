@@ -1,5 +1,4 @@
-name: CI
-run-name: build project
+name: Docs
 on:
   push:
     branches:
