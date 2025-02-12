@@ -3,9 +3,6 @@ kind: Deployment
 metadata:
   name: {{ include "demo-chart.fullname" . }}
 spec:
-  {{- if not .Values.autoscaling.enabled }}
-  replicas: {{ .Values.replicaCount }}
-  {{- end }}
   selector:
     matchLabels:
       {{- include "demo-chart.selectorLabels" . | nindent 6 }}
