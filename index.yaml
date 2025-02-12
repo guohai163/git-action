@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   demo-chart:
   - apiVersion: v2
+    appVersion: 0.1.21
+    created: "2025-02-12T16:19:39.593081719Z"
+    description: releases发布时的备注信息在这里
+    digest: 3b9587dee5cc198d00668ab8d26e8b0852fd6cc4ef634496dd0ec0a2df725b40
+    name: demo-chart
+    type: application
+    urls:
+    - https://github.com/guohai163/git-action/releases/download/helm-chart-0.1.21/demo-chart-0.1.21.tgz
+    version: 0.1.21
+  - apiVersion: v2
     appVersion: 0.1.20
     created: "2025-02-12T16:15:47.092630043Z"
     description: releases发布时的备注信息在这里
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/guohai163/git-action/releases/download/helm-chart-0.1.20/demo-chart-0.1.20.tgz
     version: 0.1.20
-generated: "2025-02-12T16:15:47.092641925Z"
+generated: "2025-02-12T16:19:39.593091096Z"
